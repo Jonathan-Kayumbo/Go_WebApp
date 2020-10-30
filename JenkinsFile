@@ -1,5 +1,5 @@
 pipeline {
-   agent { lable 'agent_1' }
+   agent { label 'agent_1' }
    environment {
        registry = "go_webApp/k8scicd"
        GOCACHE = "/tmp"
