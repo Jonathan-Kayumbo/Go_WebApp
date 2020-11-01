@@ -1,7 +1,7 @@
 pipeline {
    agent { label 'agent_1' }
    environment {
-       registry = "go_webApp/k8scicd"
+       registry = "jonathanjullius85/go_webapp"
        GOCACHE = "/tmp"
    }
    stages {
