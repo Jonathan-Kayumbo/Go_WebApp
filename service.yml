@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-svc
+  name: jonathanjulius85/webapp
 spec:
   selector:
     role: app
